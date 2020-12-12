@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radhe Studio - Mander 362230</title>
+    <link rel="stylesheet" href="studio.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1277px)"
+      href="responsive.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <script src="studio.js"></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="images/logo.jpg" alt="logo" />
+      </div>
+      <ul>
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item"><a href="#services-container">Services</a></li>
+        <li class="item"><a href="#client-section">Our Clients</a></li>
+        <li class="item"><a href="#contact">Contact us</a></li>
+      </ul>
+      <div class="contact">
+        <button onclick="location.href='tel:+9199999999';" id="callnow" class="btn-white">Call Us</button>
+      </div>
+    </nav>
+
+    <section id="home">
+      <h1 class="h-primary">Welcome to Radhe Studio - Mander</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit fuga
+      </p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing</p>
+      <button class="btn" id="book">Book Appointment</button>
+    </section>
+
+    <section id="services-container">
+      <h1 class="h-primary center">Our services</h1>
+      <div id="services">
+        <div class="box">
+          <img src="images/camera.png" alt="camera photo" />
+          <h2 class="h-secondary center">Photography</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+            suscipit quia? Quas deleniti, dolorum quae nesciunt voluptatibus
+            dignissimos amet. Sit dignissimos eos nostrum, sequi dolor eveniet
+            itaque maiores Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Magnam quod doloremque veritatis quia iure consectetur eius
+            repudiandae est hic saepe.
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/vcamera.png" alt="video camera photo" />
+          <h2 class="h-secondary center">Videography</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+            suscipit quia? Quas deleniti, dolorum quae nesciunt voluptatibus
+            dignissimos amet. Sit dignissimos eos nostrum, sequi dolor eveniet
+            itaque maiores Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Sequi, eveniet obcaecati officiis consequatur doloremque
+            aspernatur soluta rem nam quo? Deleniti!
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/drone.png" alt="Drone photo" />
+          <h2 class="h-secondary center">Aerial Shooting</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+            suscipit quia? Qu Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Nemo, fugit porro. Nesciunt culpa nam debitis voluptate, ab
+            harum nulla aliquid!as deleniti, dolorum quae nesciunt voluptatibus
+            dignissimos amet. Sit dignissimos eos nostrum, sequi dolor eveniet
+            itaque maiores
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="client-section">
+      <h1 class="h-primary center">Our clients</h1>
+      <div id="clients">
+        <div class="client-item">
+          <img src="images/client1.png" alt="clients" />
+        </div>
+        <div class="client-item">
+          <img src="images/client2.png" alt="clients" />
+        </div>
+        <div class="client-item">
+          <img src="images/client3.png" alt="clients" />
+        </div>
+        <div class="client-item">
+          <img src="images/client4.png" alt="clients" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1 class="h-primary center">Contact Us</h1>
+
+      <div id="contact-box">
+        <form action="#">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input
+              type="phone"
+              name="phone"
+              id="phone"
+              placeholder="Enter your Phone Number"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="center">
+        Copyright &copy; Radhe Studio-Mander 362230. All right reserved
+      </div>
+    </footer>
+  </body>
+</html>

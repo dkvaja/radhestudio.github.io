@@ -1,0 +1,281 @@
+/* radhe studio css */
+
+/* css reset */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+*:focus {
+  outline: none;
+}
+
+/* css variables */
+
+/* navbar*/
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+/* navbar logo and image */
+
+#logo {
+  margin: 10px 34px;
+}
+
+#logo img {
+  height: 56px;
+  border-radius: 34px;
+  margin: 3px 6px;
+  cursor: pointer;
+}
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+/* navbar list style */
+
+#navbar ul {
+  display: flex;
+  font-family: "Baloo 2", cursive;
+  font-weight: bold;
+}
+
+#navbar ul li {
+  list-style: none;
+}
+#navbar ul li a {
+  color: white;
+  display: block;
+  padding: 3px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+#callnow {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 8%;
+  padding: 6px;
+  margin-right: 38px;
+  color: white;
+}
+#callnow:hover {
+  background-color: white;
+  color: black;
+}
+
+/* home section */
+
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  height: 456px;
+  justify-content: center;
+  align-items: center;
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+  background: url("images/bg2.jpg") no-repeat center center/cover;
+  height: 540px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+#home p {
+  color: rgb(44, 43, 43);
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Bree Serif", serif;
+}
+
+#book:hover {
+  background-color: black;
+  color: white;
+}
+/* utility class */
+
+.h-primary {
+  font-size: 2.6rem;
+  padding: 12px;
+  color: black;
+  font-family: "Bree Serif", serif;
+}
+.h-secondary {
+  font-size: 1.6rem;
+  padding: 12px;
+  color: black;
+  font-family: "Bree Serif", serif;
+}
+
+.btn {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: none;
+  color: black;
+  margin: 17px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 20%;
+  font-family: "Baloo 2", cursive;
+  font-weight: bold;
+}
+.btn-white {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background: none;
+  color: white;
+  margin: 17px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 20%;
+  font-family: "Baloo 2", cursive;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+/* services styling */
+
+#services {
+  margin: 34px;
+  display: flex;
+}
+#services .box {
+  border: 3px solid brown;
+  margin: 4px 18px;
+  padding: 18px 20px;
+  border-radius: 20px;
+  background-color: rgb(247, 233, 233);
+}
+
+#services .box img {
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+#services .box p {
+  text-align: center;
+  font-family: "Bree Serif", serif;
+}
+
+/* client section */
+
+#client-section::before {
+  content: "";
+  position: absolute;
+  background: url("images/bg1.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 17.5rem;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+#clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#clients img {
+  height: 124px;
+}
+
+.client-item {
+  padding: 34px;
+}
+
+/* contact section */
+
+#contact {
+  position: relative;
+}
+
+#contact::before {
+  content: "";
+  background: url("images/contact.jpg") no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+#contact-box form {
+  width: 40%;
+}
+#contact-box label {
+  font-size: 1.3rem;
+  font-family: "Bree Serif", serif;
+}
+#contact-box input,
+#contact-box textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-size: 1.1rem;
+}
+
+#contact-box ::placeholder {
+  font-family: "Bree Serif", serif;
+}
+#contact-box button {
+  display: block;
+  margin: 10px auto;
+  width: 33%;
+  padding: 10px;
+  font-family: "Baloo 2", cursive;
+  font-weight: bold;
+}
+#contact-box button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* footer styling */
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 20px;
+  font-family: "Baloo 2", cursive;
+}

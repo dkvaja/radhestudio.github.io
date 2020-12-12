@@ -1,0 +1,76 @@
+/* responsive design by dk_vaja*/
+html {
+  scroll-behavior: smooth;
+}
+/* navigation style */
+
+#navbar {
+  flex-direction: column;
+}
+#navbar ul li a {
+  font-size: 1rem;
+  padding: 0px 7px;
+  margin-bottom: 0.5rem;
+}
+#book {
+  width: 8rem;
+}
+#callnow {
+  visibility: hidden;
+}
+
+/* home section */
+
+#home {
+  height: 370px;
+  padding: 3px 13px;
+}
+#home::before {
+  height: 480px;
+}
+#home p {
+  font-size: 13px;
+}
+
+/* services style */
+#services {
+  flex-direction: column;
+}
+#services .box {
+  padding: 14px;
+  margin: 2px 0px;
+  margin-bottom: 20px;
+}
+#services .box img {
+  width: 130px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+/* client style */
+#clients {
+  flex-wrap: wrap;
+}
+#clients img {
+  width: 66px;
+  height: auto;
+}
+/* contact style */
+
+#contact-box form {
+  width: 70%;
+}
+/* footer style */
+
+/* utility */
+
+.h-primary {
+  font-size: 21px;
+  padding: 0px;
+}
+
+.btn {
+  font-size: 13px;
+  padding: 4px 8px;
+}
